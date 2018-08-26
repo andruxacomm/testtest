@@ -2,18 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93d6a9b4-da8b-44ee-9669-ff89cb42ae72" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/markup/components/brends-items/item/item.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markup/components/head/head.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/markup/components/head/head.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markup/components/header/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/markup/components/header/header.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markup/components/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/markup/components/header/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markup/pages/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/markup/pages/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markup/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/markup/static/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markup/static/scss/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/markup/static/scss/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markup/static/scss/entry/partials/_components.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/markup/static/scss/entry/partials/_components.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markup/static/scss/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/markup/static/scss/fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/humans.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/separate-css/separate-css-sample.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/fonts/PTSerif-Regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/fonts/PTSerif-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/fonts/PTSerif-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/fonts/montserrat.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/fonts/montserrat.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/fonts/montserrat.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/fonts/montserratblack.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/fonts/montserratblack.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/fonts/montserratblack.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/fonts/montserratbold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/fonts/montserratbold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/fonts/montserratbold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/fonts/montserrathairline.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/fonts/montserrathairline.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/fonts/montserrathairline.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/fonts/montserratlight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/fonts/montserratlight.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/fonts/montserratlight.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/fonts/ofont.ru_PT Serif.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/fonts/ofont.ru_PT Serif.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/img/content/18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/img/content/Steelite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/img/content/aps.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/img/content/bg-home-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/img/content/bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/img/content/eternum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/img/content/ilsa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/img/content/isi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/img/content/libbey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/img/content/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/img/content/mafter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/img/content/monin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/img/content/vitamix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/img/content/wightlogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/vendor.min.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="about.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/markup/components/about/about.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="16" selection-end-column="29" />
+            <state relative-caret-position="-2176">
+              <caret line="16" column="12" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="33" />
               <folding>
                 <element signature="e#2398#2646#0" />
               </folding>
@@ -72,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/src/markup/components/header/header.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-749">
-              <caret line="118" column="16" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
+              <caret line="119" column="16" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -95,10 +126,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="brands.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="brands.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/markup/components/brands/brands.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="1088">
               <caret line="64" column="33" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
               <folding>
                 <element signature="e#2185#2547#0" />
@@ -382,16 +413,15 @@
       <option name="presentableId" value="Default" />
       <updated>1535104690028</updated>
       <workItem from="1535104691872" duration="11133000" />
-      <workItem from="1535203968343" duration="38408000" />
+      <workItem from="1535203968343" duration="38898000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49541000" />
+    <option name="totallyTimeSpent" value="50031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -595,13 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/markup/components/brands/brands.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/markup/static/scss/common.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -612,28 +635,35 @@
     <entry file="file://$PROJECT_DIR$/src/markup/components/header/header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-749">
-          <caret line="118" column="16" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
+          <caret line="119" column="16" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/markup/components/about/about.scss">
+    <entry file="file://$PROJECT_DIR$/src/markup/components/brands/brands.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="e#2398#2646#0" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/markup/components/brands/brands.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="1088">
           <caret line="64" column="33" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
           <folding>
             <element signature="e#2185#2547#0" />
             <element signature="e#2574#2828#0" />
             <element signature="e#2855#3106#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/markup/components/about/about.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2176">
+          <caret line="16" column="12" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <element signature="e#2398#2646#0" />
           </folding>
         </state>
       </provider>
