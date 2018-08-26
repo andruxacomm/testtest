@@ -1,0 +1,192 @@
+.about {
+    &__title {
+        position: relative;
+
+        display: inline-block;
+        width: rem(300);
+
+        font-family: $ptSerif;
+        font-size: rem(38);
+        font-weight: 100;
+        line-height: rem(64);
+
+        @include below(1025px){
+            width: rem(220);
+
+            font-size: 24px;
+            font-weight: 100;
+            line-height: rem(32);
+
+            &:before {
+                top: rem(16) !important;
+            }
+        }
+
+        @include below(769px){
+            width: rem(200);
+
+            font-size: rem(26);
+            line-height: rem(34);
+
+            &:before {
+                top: rem(14);
+            }
+        }
+
+        @include below(481px){
+            display: rem(18);
+            margin-top: rem(30);
+
+            font-size: rem(19);
+            line-height: rem(18);
+            &:before {
+                top: 9px !important;
+            }
+        }
+
+        @include below(415px){
+            font-size: rem(24);
+            line-height: rem(32);
+            color: #fff;
+        }
+
+
+        &:before {
+            content: '';
+
+            position: absolute;
+            top: rem(30);
+            left: rem(-75);
+
+            display: block;
+            width: rem(70);
+            height: 1px;
+
+            background: #000;
+        }
+    }
+
+    &__title-container {
+        margin-top: rem(60);
+        margin-bottom: rem(48);
+        margin-left: rem(73);
+
+        @include below(769px){
+            margin-bottom: rem(10);
+            margin-left: rem(30);
+        }
+
+        @include below(481px){
+            margin-top: 0;
+        }
+
+        @include below(415px){
+            margin-top: rem(35);
+        }
+        .line {
+            margin-top: rem(35);
+
+            vertical-align: top;
+
+            background: #000000 !important;
+        }
+    }
+
+    .plyr--video {
+        width: rem(480);
+        margin-left: rem(73);
+
+        box-shadow:  2px 0 7px rgba(0,0,0,0.2);
+
+        @include below(769px){
+            width: rem(365);
+            margin-left: rem(31);
+        }
+
+        @include below(481px){
+            width: rem(235);
+            margin-top: rem(49);
+        }
+
+        @include below(415px){
+            order: 3;
+            width: rem(365);
+            margin-top: rem(123);
+        }
+
+        @include below(361px){
+            width: rem(311);
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+    }
+
+    .plyr__control.plyr__control--overlaid {
+        width: rem(90);
+        height: rem(90);
+
+        background: #2E303C;
+        box-shadow: 0 0 0 14px rgba(110, 110, 110, 0.65);
+
+        @include below(769px){
+            width: rem(87);
+            height: rem(87);
+        }
+
+        @include below(481px){
+            width: rem(40);
+            height: rem(40);
+
+            box-shadow: 0 0 0 9px rgba(110, 110, 110, 0.65);
+
+
+            svg {
+                top: -5px;
+                left: -1px !important;
+
+                width: 15px;
+            }
+        }
+
+
+
+        svg {
+            left: 35%;
+            fill: #F1B743;
+        }
+
+
+
+    }
+
+    &__oreder-btn {
+        width: rem(195);
+        height: rem(60);
+        margin-top: rem(63);
+        margin-bottom: rem(251);
+        margin-left: rem(73);
+
+        font-family: $Monsterrat;
+        font-size: rem(12);
+
+        border: 0;
+        border-radius: rem(40);
+        background: #F8CB72;
+        outline: none;
+
+        @include below(769px){
+            margin-top: rem(25);
+            margin-left: rem(31);
+        }
+
+        @include below(481px) {
+            margin: 34px auto;
+        }
+
+        @include below(415px){
+            order: 2;
+            margin-left: rem(30);
+        }
+    }
+}

@@ -1,3 +1,175 @@
 .header {
+    position: relative;
+
+    padding-top: rem(37);
+
+    @include below(769px){
+        padding-top: rem(7);
+    }
+    &__navigation-link{
+        font-family: $Monsterrat;
+        font-size: 12px;
+
+        &:first-child{
+            margin-right: rem(89);
+
+
+            @include below(769px){
+                margin-right: rem(50);
+            }
+
+            @include below(481px){
+                margin-right: rem(10);
+            }
+        }
+
+        &:last-child{
+            color: #ffffff;
+        }
+    }
+
+    &__logo-image {
+        width: rem(93);
+        margin-left: rem(73);
+
+        @include below(769px){
+            width: rem(60);
+            height: rem(50);
+        }
+
+        @include below(481px){
+            position: relative;
+
+            width: rem(54);
+            height: rem(45);
+            margin-left: rem(15);
+        }
+
+        @include below(361px){
+            display: none;
+        }
+    }
+
+    &__whitelogo {
+        display: none;
+
+        @include below(361px){
+            display: block;
+        }
+
+    }
+
+    &__navigation {
+        padding-top: rem(59);
+
+        @include below(769px){
+            padding-top: rem(35);
+            margin-left: rem(15);
+        }
+
+        @include below(481px){
+            display: none;
+        }
+    }
+
+    &__phones {
+        padding-top: rem(59);
+
+        @include below(769px){
+            padding-top: rem(38);
+        }
+
+        @include below(481px){
+            padding-top: 28px;
+        }
+
+
+    }
+
+    &__phone-number {
+        position: relative;
+
+        margin-right: rem(45);
+
+        font-family: $Monsterrat;
+        font-size: rem(16);
+        color: #ffffff;
+
+        @include below(481px){
+            font-size: rem(14);
+        }
+        &::after {
+            content: '';
+
+            position: absolute;
+            top: rem(10);
+            left: rem(138);
+
+            display: block;
+            width: rem(70);
+            height: 1px;
+
+            background: #fff;
+        }
+    }
+
+    &__bg-image1{
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 50%;
+
+
+        width:  42rem;
+        height: 53.125rem;
+
+        @include below(1024px){
+            width: rem(775);
+            height: rem(686);
+        }
+
+        @include below(769px){
+            width: rem(560);
+            height: rem(490);
+        }
+
+        @include below(481px){
+            width: rem(358);
+            height: rem(317);
+        }
+
+        @include below(415px){
+            left: 0;
+
+            width: rem(414);
+            height: rem(367);
+        }
+    }
+
+    &__bg-image2{
+        position: absolute;
+        z-index: -1;
+        top: rem(140);
+        left: 54%;
+
+        @include below(1024px){
+            width: rem(517);
+            height: rem(772);
+        }
+
+        @include below(769px){
+            top: rem(58);
+
+            width: rem(370);
+            height: rem(552);
+        }
+
+        @include below(481px){
+            width: rem(217);
+            height: rem(324);
+        }
+
+    }
+
 
 }

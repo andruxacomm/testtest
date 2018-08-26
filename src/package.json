@@ -5,7 +5,9 @@
   "main": "gulpfile.js",
   "directories": {},
   "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
     "bemto.pug": "^2.0.0",
+    "plyr": "^3.4.3",
     "svg4everybody": "^2.1.0"
   },
   "devDependencies": {

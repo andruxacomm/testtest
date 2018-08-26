@@ -4,8 +4,62 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html, body {
     height: 100%;
+    box-sizing: border-box;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.jc-space-beetween {
+    justify-content: space-between;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.f-start {
+    justify-content: flex-start;
+}
+
+
+.line {
+    display: none;
+    width: rem(70);
+    height: rem(1);
+    background: #ffffff;
+
+    @include below(1024px){
+        width: rem(31);
+    }
+
+    @include below(769){
+        width: rem(23);
+        height: 1.5px;
+        margin-top: rem(5);
+    }
 }

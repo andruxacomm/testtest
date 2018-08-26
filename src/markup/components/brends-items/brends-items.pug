@@ -1,0 +1,5 @@
+include ./item/item
+mixin brends-items(data)
+    +b.brends-items.d-flex.f-start()&attributes(attributes)
+        each item in data.items
+            +item(item)

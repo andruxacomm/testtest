@@ -7,3 +7,8 @@
 // Var for using custom font
 $font-1: 'Open Sans', Helvetica, Arial, sans-serif;
 */
+@include font-face('Montserrat', '../fonts/Montserrat', normal, italic, $exts: woff woff2 ttf);
+$Monsterrat: 'Montserrat', Helvetica, Arial;
+
+@include font-face('PtSerif', '../fonts/PTSerif-Regular', normal, italic, $exts: woff woff2 ttf);
+$ptSerif: 'PtSerif', Helvetica, Arial;

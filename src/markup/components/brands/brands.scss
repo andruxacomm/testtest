@@ -1,0 +1,224 @@
+.brands {
+
+    position: relative;
+
+    .container {
+        padding-right: rem(40);
+        padding-left: rem(40);
+
+        @include below(481px){
+            padding-right: rem(20);
+            padding-left: rem(20);
+        }
+    }
+        &__title-container {
+            display: flex;
+
+            @include below(1025px){
+                margin-left: -35px;
+            }
+
+            @include below(415px){
+                margin-top: rem(53);
+                margin-bottom: rem(10);
+            }
+            .line {
+                margin-right: rem(32);
+
+                background: #000000;
+            }
+
+
+
+
+
+        }
+        &__title {
+            position: relative;
+
+            margin-bottom: rem(107);
+
+            font-size: rem(36);
+            font-weight: 100;
+
+            @include below(1025px){
+                margin-left: rem(38);
+
+                font-size: rem(26);
+
+                &:before {
+                    top: rem(15);
+                }
+            }
+
+            @include below(769px){
+                margin-bottom: rem(49);
+
+                font-size: rem(22);
+
+
+            }
+
+            @include below(481px){
+                margin-left: rem(63);
+
+                font-size: rem(22);
+                line-height: rem(26);
+
+            }
+
+            @include below(415px){
+                font-size: rem(22);
+                line-height: rem(32);
+            }
+
+            &:before {
+                content: '';
+
+                position: absolute;
+                top: rem(23);
+                left: rem(-75);
+
+                display: block;
+                width: rem(70);
+                height: 1px;
+
+                background: #000;
+
+                @include below(1025px){
+                    top: 13px;
+
+                    height: 1.5px;
+                }
+            }
+
+
+        }
+
+        &__image{
+            position: absolute;
+            top: 35%;
+            left: 50%;
+
+            width:  40rem;
+
+            @include below(769px){
+                display: none;
+            }
+        }
+
+
+}
+
+
+.one-brand {
+    position: relative;
+
+    width: 25%;
+    height: rem(409);
+    padding-top: rem(38);
+    padding-right: rem(43);
+    padding-left: rem(35);
+
+    @include below(769px){
+        width: 33%;
+
+        &:nth-child(2n){
+            background: #F9F9F9;
+        }
+
+        &:nth-child(6){
+            box-shadow: 2px 0 7px rgba(0,0,0,0);
+        }
+
+        &:nth-child(2n+1){
+            box-shadow:  2px 0 7px rgba(0,0,0,0.2);
+        }
+        &:nth-child(5),&:nth-child(7) {
+            background: #fff !important;
+        }
+
+    }
+
+    @include below(481px){
+        width: 50%;
+        height: rem(280);
+        &:nth-child(2n){
+            background: #fff !important;
+        }
+        &:nth-child(2),&:nth-child(3), &:nth-child(6), &:nth-child(7){
+            background: #F9F9F9 !important;
+            box-shadow:  2px 0 7px rgba(0,0,0,0) !important;
+        }
+
+        &:nth-child(1),&:nth-child(3), &:nth-child(4), &:nth-child(7){
+            box-shadow:  2px 0 7px rgba(0,0,0,0.2);
+        }
+    }
+
+    @include below(415px){
+        width: 100%;
+        height: rem(215);
+            &:nth-child(2n) {
+                background: #F9F9F9 !important;
+            }
+
+            &:nth-child(3),&:nth-child(7) {
+                background: #fff !important;
+            }
+
+    }
+
+    @include below(361px){
+        height: rem(265);
+    }
+
+    &:nth-child(2),&:nth-child(4),&:nth-child(5),&:nth-child(7){
+        background: #F9F9F9;
+
+    }
+
+    &:nth-child(1),&:nth-child(3),&:nth-child(6),&:nth-child(8), &:nth-child(9){
+        box-shadow:  2px 0 7px rgba(0,0,0,0.2);
+
+    }
+
+    &__logo {
+        float: right;
+    }
+
+    &__name {
+        margin-top: rem(202);
+
+        font-family: $Monsterrat;
+
+        @include below(481px){
+            margin-top: rem(65);
+        }
+
+        @include below(415px){
+            margin-top: rem(77);
+        }
+    }
+
+    &__description {
+        margin-top: rem(15);
+
+        font-family: $ptSerif;
+
+    }
+
+    &__vertical-line {
+        position: absolute;
+        bottom: 0;
+
+        width: 1.5px;
+        height: rem(38);
+
+        background: #595959;
+
+        @include below(481px){
+            height: rem(25);
+        }
+    }
+}

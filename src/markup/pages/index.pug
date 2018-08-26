@@ -1,7 +1,12 @@
 extends ../layouts/default
 
+include ../components/about/about
+include ../components/brands/brands
+
 block vars
     -pageSettings.title = 'Главная';
 
 block content
-    // Контент здесь
+    +about()
+    +brands()
+

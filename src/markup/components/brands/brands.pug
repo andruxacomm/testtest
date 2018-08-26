@@ -1,0 +1,10 @@
+include ../brends-items/brends-items
+
+mixin brands(data)
+    +b.brands()&attributes(attributes)
+        +e.image(src="%=static=%img/content/18.png")
+        .container
+            +e.title-container
+                SPAN.line
+                +e.H1.title Мы работаем с известными брендами
+            +brends-items(itemsList)

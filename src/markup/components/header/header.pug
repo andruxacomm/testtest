@@ -1,3 +1,18 @@
 mixin header(data)
     +b.HEADER.header()&attributes(attributes)
-        block
+        +e.bg-image1(src='%=static=%img/content/bg1.png')
+        +e.bg-image2(src='%=static=%img/content/bg-home-3.png')
+        .container.d-flex.jc-space-beetween
+            +e.__logo
+                +e.A.__home-link(href="#")
+                    +e.IMG.logo-image(src='%=static=%img/content/logo.png')
+                    +e.IMG.whitelogo(src='%=static=%img/content/wightlogo.png')
+            +e.NAV.__navigation
+                +e.A.__navigation-link(href="#") Портфолио
+                +e.A.__navigation-link(href="#") Контанкты
+            +e.__phones
+                +e.SPAN.phone-number 8 (495) 721-24-39
+                SPAN.line
+
+
+
